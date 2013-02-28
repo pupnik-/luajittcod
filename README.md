@@ -9,10 +9,10 @@ structs and C types as you must sometimes do.  I will be writing wrappers for
 functions as I go over the next few weeks up to and including the 7drl
 challenge.
 
-Some sections have been excluded as they duplicate functionality found in lua
-while a couple of minor sections are not complete yet, as noted in
+Some sections have been excluded as they duplicate functionality found in lua.
+While a couple of minor sections are not complete yet, as noted in
 tcodwrap.lua.  Currently it does not have module information, to inlude it in
-your lua code simply dofile("tcodwarp.lua") and all tcod functions will be
+your lua code simply dofile("tcodwrap.lua") and all tcod functions will be
 accessed by tcod.*.  The wraps will be in the global scope, and follow the
 conventions of the python tcod wrapper code found on the libtcod docs.
 
